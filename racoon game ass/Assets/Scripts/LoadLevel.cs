@@ -10,9 +10,9 @@ public class LoadLevel : MonoBehaviour
     [SerializeField] string[] levelNames;
     private int levelIndexCurrentlyLoaded = -1;
 
-    void LoadLevelNumeric_ClearOld(int index)
+   public void LoadLevelNumeric_ClearOld(int index)
     {
-        if (levelIndexCurrentlyLoaded <= 0)
+        if (levelIndexCurrentlyLoaded >= 0)
         {
             SceneManager.UnloadSceneAsync(levelIndexCurrentlyLoaded);
         }

@@ -9,7 +9,7 @@ public class Person : EnemyAI
     // Update is called once per frame
 
     private Coroutine attackCo;
-    void Update()
+    protected override void Update()
     {
         if (playerDetected)
         {

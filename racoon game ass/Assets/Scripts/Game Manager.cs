@@ -7,19 +7,18 @@ public class GameManager : MonoBehaviour
     
 
     [SerializeField] public GameObject player;
-    
+    [SerializeField] private LoadLevel loadLevel;
    
 
     void Awake()
     {
         instance = this;
         player = GameObject.FindGameObjectWithTag("Player");
-        
-    }
-    
-    void Start()
-    {
-        instance = this;
+        loadLevel.LoadLevelNumeric_ClearOld(0);
+        CharacterController playerController = player.GetComponent<CharacterController>();
+        playerController.enabled = false;
+        player.transform.position = new Vector3(104, 4, 0);
+        playerController.enabled = true;
     }
 
     // Update is called once per frame
