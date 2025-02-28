@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.PlayerLoop;
 
 public class EnemyAI : MonoBehaviour, AI_Interface
 {
@@ -83,10 +84,11 @@ public class EnemyAI : MonoBehaviour, AI_Interface
         {
             Debug.Log(dotProduct);
             Vector3 playePos = GameManager.GetInstance().GetPlayer().transform.position;
-            Vector3 direction = (playePos - transform.position).normalized;
+            Vector3 direction = (playePos - headPos.position).normalized;
             RaycastHit hit;
             int ignoreLayer = LayerMask.GetMask("Enemy");
-            if (Physics.Raycast(headPos.position, direction, out hit, ~ignoreLayer))
+            Debug.DrawRay(headPos.position, direction * 30f, Color.red);
+            if (Physics.Raycast(headPos.position, direction, out hit, ignoreLayer))
             {
                 if (hit.collider.CompareTag("Player"))
                 {
