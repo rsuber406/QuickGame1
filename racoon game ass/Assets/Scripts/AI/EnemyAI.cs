@@ -100,7 +100,7 @@ public class EnemyAI : MonoBehaviour, AI_Interface
                         ChasePlayer();
                     }
 
-                    if (Vector3.Distance(AIController.GetAIController().GetPlayer().transform.position,
+                    if (Vector3.Distance(GameManager.GetInstance().GetPlayer().transform.position,
                             transform.position) < agent.stoppingDistance)
                     {
                         FacePlayer();

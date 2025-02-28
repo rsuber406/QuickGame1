@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="de28f2ae-e6c6-4e4e-8ba0-28199badd70b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/police_Female_A.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/police_Female_A.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SingletonScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SingletonScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +97,15 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17232">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="17232" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list />
+        <list>
+          <MonoRuntime />
+        </list>
       </option>
       <option name="selectedOptions">
         <list />
@@ -192,5 +197,24 @@
     <MESSAGE value="Change in my scene" />
     <MESSAGE value="AI nav package re-added" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>102</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2820" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2977" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

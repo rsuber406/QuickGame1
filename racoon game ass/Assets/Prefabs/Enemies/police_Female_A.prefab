@@ -1087,6 +1087,7 @@ MonoBehaviour:
   waitTime: 4
   headPos: {fileID: 4570145906874211813}
   animationController: {fileID: 3013923734882127473}
+  CharacterAttacksPlayer: 0
   animChangeSpeed: 2
 --- !u!195 &1513636015188680760
 NavMeshAgent:
@@ -1129,7 +1130,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 10
+  m_Radius: 25
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8566601876483120724
 GameObject:
