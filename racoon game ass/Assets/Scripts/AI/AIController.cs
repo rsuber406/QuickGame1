@@ -19,8 +19,13 @@ public class AIController : MonoBehaviour
     }
     
 
-    public AIController GetAIController()
+    public static AIController GetAIController()
     {
         return instance;
+    }
+
+    public GameObject GetPlayer()
+    {
+        return player;
     }
 }
