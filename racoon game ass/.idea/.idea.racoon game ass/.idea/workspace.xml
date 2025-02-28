@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de28f2ae-e6c6-4e4e-8ba0-28199badd70b" name="Changes" comment="" />
+    <list default="true" id="de28f2ae-e6c6-4e4e-8ba0-28199badd70b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TempEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TempEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DevelopmentScene/RyanDevScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DevelopmentScene/RyanDevScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/idle_f_1_150f.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/idle_f_1_150f.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/idle_f_2_190f.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/idle_f_2_190f.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/idle_m_1_200f.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/idle_m_1_200f.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/idle_m_2_220f.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/idle_m_2_220f.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/locom_f_basicWalk_30f.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/locom_f_basicWalk_30f.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/locom_f_jogging_30f.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/locom_f_jogging_30f.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/locom_f_running_20f.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/locom_f_running_20f.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/locom_m_running_20f.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Animations/locom_m_running_20f.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Scripts/CityPeople.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UnityDLFolder/DenysAlmaral/CityPeople-FREE/Scripts/CityPeople.cs.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="feature/AI" />
+        <entry key="$PROJECT_DIR$/.." value="RyanDevelopment" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -31,8 +55,12 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/UnityProjects/GitTrackedProjects/QuickGame1/racoon game ass/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/UnityProjects/GitTrackedProjects/QuickGame1/racoon game ass/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/GitTrackedProjects/QuickGame1/racoon game ass/Assets/Scenes/DevelopmentScene/RyanDevScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/GitTrackedProjects/QuickGame1/racoon game ass/Assets/Scenes/DevelopmentScene/RyanDevScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AI_Interface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/UnityProjects/GitTrackedProjects/QuickGame1/racoon game ass/Assets/Scripts/AI/EnemyAI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -47,6 +75,7 @@
   &quot;keyToString&quot;: {
     &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/AI&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -125,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740775730710</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed player prefab and added assets">
+      <option name="closed" value="true" />
+      <created>1740778738055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740778738055</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Change in my scene">
+      <option name="closed" value="true" />
+      <created>1740778745423</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740778745423</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,27 +184,92 @@
     <option name="unityProjectFolder" value="true" />
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Early AI ready" />
     <MESSAGE value="Added needed layer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added needed layer" />
+    <MESSAGE value="fixed player prefab and added assets" />
+    <MESSAGE value="Change in my scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change in my scene" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
-          <line>56</line>
+          <line>58</line>
           <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'OnTriggerEnter'">
             <startOffsets>
-              <option value="1240" />
+              <option value="1348" />
             </startOffsets>
             <endOffsets>
-              <option value="1271" />
+              <option value="1379" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>95</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2584" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2598" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>107</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'ChasePlayer'">
+            <startOffsets>
+              <option value="2796" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2875" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>93</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2507" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2545" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>91</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2405" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2476" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
