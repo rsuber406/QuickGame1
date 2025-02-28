@@ -4,7 +4,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public PlayerMovementScript playerScript;
     
 
     [SerializeField] public GameObject player;
@@ -29,7 +28,6 @@ public class GameManager : MonoBehaviour
         
     }
 
-    private static GameManager instance;
 
     public static GameManager GetInstance()
     {
