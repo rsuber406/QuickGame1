@@ -100,6 +100,5 @@ public class CamaraFollowAndPoint : MonoBehaviour
             //Camera needs to lerp to look at camera view target in all 3 dimensions
           cameraParent.transform.rotation =  Quaternion.Lerp(cameraParent.transform.rotation, cameraRotation, cameraLerpAngleSpeed *Time.deltaTime);
         }
-        //e
     }
 }
