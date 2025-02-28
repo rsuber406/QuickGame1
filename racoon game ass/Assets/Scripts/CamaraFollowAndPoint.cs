@@ -86,20 +86,19 @@ public class CamaraFollowAndPoint : MonoBehaviour
         /// Camera Rotation Logic
         /// 
 
-        Vector3 cameraDirection = cameraParent.transform.position - cameraViewTarget.transform.position;
-
+        Vector3 cameraDirection = cameraViewTarget.transform.position - cameraParent.transform.position;
+        cameraDirection.z = 0;
         Quaternion cameraRotation = Quaternion.LookRotation(cameraDirection);
+       
 
         if (
             (Math.Abs(cameraParent.transform.rotation.x - cameraRotation.x) > cameraAngleOfTolerance)
             ||
             (Math.Abs(cameraParent.transform.rotation.y - cameraRotation.y) > cameraAngleOfTolerance)
-            ||
-            (Math.Abs(cameraParent.transform.rotation.z - cameraRotation.z) > cameraAngleOfTolerance)
             )
         {
             //Camera needs to lerp to look at camera view target in all 3 dimensions
-            Quaternion.Lerp(cameraParent.transform.rotation, cameraRotation, cameraLerpAngleSpeed);
+          cameraParent.transform.rotation =  Quaternion.Lerp(cameraParent.transform.rotation, cameraRotation, cameraLerpAngleSpeed *Time.deltaTime);
         }
 
     }
