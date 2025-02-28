@@ -161,7 +161,7 @@ MonoBehaviour:
   FOV: 80
   roamingRange: 10
   waitTime: 5
-  headPos: {fileID: 0}
+  headPos: {fileID: 5872003134259439880}
 --- !u!195 &2171446238640855314
 NavMeshAgent:
   m_ObjectHideFlags: 0
