@@ -10,6 +10,7 @@ public class TrashItem : MonoBehaviour
       ScoreManager scoreManager = FindFirstObjectByType<ScoreManager>();
       
       scoreManager.AddTrash();
+      scoreManager.UpdateUI();
       
       Destroy(gameObject);
    }
