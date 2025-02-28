@@ -3,13 +3,14 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    private int trashCollected = 0;
+  [SerializeField]  private int trashCollected = 0;
     private int maxTrashInLevel = 16;
     [SerializeField] private TMP_Text trashCountText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void AddTrash()
     {
-        trashCollected++;
+        trashCollected = trashCollected + 1;
+        UpdateUI();
 
     }
     void Update()
@@ -18,10 +19,10 @@ public class ScoreManager : MonoBehaviour
         
     }
 
-    private void UpdateUI()
+    public void UpdateUI()
     {
-        trashCollected = 0;
         trashCountText.text = $"{trashCollected}/{maxTrashInLevel}";
+        Debug.Log("Trash collected: " + trashCollected);
     }
 
     public bool ALlTrashCollected()

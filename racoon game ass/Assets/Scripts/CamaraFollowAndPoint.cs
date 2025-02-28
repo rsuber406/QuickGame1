@@ -68,6 +68,13 @@ public class CamaraFollowAndPoint : MonoBehaviour
         /// 
         /// Camera Follow Logic
         /// 
+        CameraSoftFollow();
+
+
+    }
+
+    void CameraSoftFollow()
+    {
 
         if (
             (Math.Abs(cameraParent.transform.position.x - cameraFollowTarget.transform.position.x) > cameraFollowDistanceTolerance)
@@ -87,7 +94,7 @@ public class CamaraFollowAndPoint : MonoBehaviour
         /// 
 
         Vector3 cameraDirection = cameraViewTarget.transform.position - cameraParent.transform.position;
-       
+
         Quaternion cameraRotation = Quaternion.LookRotation(cameraDirection);
 
         if (
@@ -95,10 +102,12 @@ public class CamaraFollowAndPoint : MonoBehaviour
             ||
             (Math.Abs(cameraParent.transform.rotation.y - cameraRotation.y) > cameraAngleOfTolerance)
             )
-            //NO Z
+        //NO Z
         {
             //Camera needs to lerp to look at camera view target in all 3 dimensions
-          cameraParent.transform.rotation =  Quaternion.Lerp(cameraParent.transform.rotation, cameraRotation, cameraLerpAngleSpeed *Time.deltaTime);
+            cameraParent.transform.rotation = Quaternion.Lerp(cameraParent.transform.rotation, cameraRotation, cameraLerpAngleSpeed * Time.deltaTime);
         }
+
+
     }
 }
