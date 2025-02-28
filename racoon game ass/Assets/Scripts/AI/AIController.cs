@@ -1,13 +1,15 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class AIController : MonoBehaviour
 {
-
-    [SerializeField] public GameObject player;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
+    private static AIController instance;
+    private GameObject player;
+    
+    void Start()
     {
         instance = this;
+        player = GameManager.GetInstance().GetPlayer();
     }
 
     // Update is called once per frame
@@ -15,16 +17,10 @@ public class GameManager : MonoBehaviour
     {
         
     }
+    
 
-    private static GameManager instance;
-
-    public static GameManager GetInstance()
+    public AIController GetAIController()
     {
         return instance;
-    }
-
-    public GameObject GetPlayer()
-    {
-        return player;
     }
 }
