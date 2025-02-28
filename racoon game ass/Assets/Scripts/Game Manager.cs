@@ -20,12 +20,24 @@ public class GameManager : MonoBehaviour
     
     void Start()
     {
-        
+        instance = this;
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private static GameManager instance;
+
+    public static GameManager GetInstance()
+    {
+        return instance;
+    }
+
+    public GameObject GetPlayer()
+    {
+        return player;
     }
 }
