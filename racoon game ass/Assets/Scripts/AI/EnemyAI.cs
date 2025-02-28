@@ -13,6 +13,7 @@ public class EnemyAI : MonoBehaviour, AI_Interface
     [SerializeField] protected float roamingRange;
     [SerializeField] protected float waitTime;
     [SerializeField] private Transform headPos;
+    [SerializeField] protected Animator animationController;
 
     protected bool playerDetected = false;
 
@@ -27,7 +28,7 @@ public class EnemyAI : MonoBehaviour, AI_Interface
     }
 
     // Update is called once per frame
-    void Update()
+   protected virtual void Update()
     {
         if (playerDetected && !CanSeePlayer())
         {
