@@ -95,6 +95,7 @@ public class CamaraFollowAndPoint : MonoBehaviour
             ||
             (Math.Abs(cameraParent.transform.rotation.y - cameraRotation.y) > cameraAngleOfTolerance)
             )
+            //NO Z
         {
             //Camera needs to lerp to look at camera view target in all 3 dimensions
           cameraParent.transform.rotation =  Quaternion.Lerp(cameraParent.transform.rotation, cameraRotation, cameraLerpAngleSpeed *Time.deltaTime);
