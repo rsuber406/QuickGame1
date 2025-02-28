@@ -24,19 +24,19 @@ public class CamaraFollowAndPoint : MonoBehaviour
     /// Needed for soft follow and not to snap to position
     /// </summary>
 
-    [SerializeField] float cameraAngleOfTolerance;
+    [SerializeField] float cameraAngleOfTolerance = 0.01f;
     /// <summary>
     /// This is the angle between camera parent and camera target in which the camera parent
     /// will not rotate. This is for the rotation only not the position.
     /// </summary>
 
-    [SerializeField] float cameraFollowDistanceTolerance;
+    [SerializeField] float cameraFollowDistanceTolerance = 0.01f;
     /// <summary>
     /// How far the camera can be from X, Y, or Z before it starts moving
     /// </summary>
 
-    [SerializeField] float cameraLerpAngleSpeed;
-    [SerializeField] float cameraLerpDistanceSpeed;
+    [SerializeField] float cameraLerpAngleSpeed = 1.0f;
+    [SerializeField] float cameraLerpDistanceSpeed = 0.1f;
 
 
     void Start()
@@ -87,9 +87,8 @@ public class CamaraFollowAndPoint : MonoBehaviour
         /// 
 
         Vector3 cameraDirection = cameraViewTarget.transform.position - cameraParent.transform.position;
-        cameraDirection.z = 0;
+       
         Quaternion cameraRotation = Quaternion.LookRotation(cameraDirection);
-        cameraRotation.w = 1;
 
         if (
             (Math.Abs(cameraParent.transform.rotation.x - cameraRotation.x) > cameraAngleOfTolerance)
