@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de28f2ae-e6c6-4e4e-8ba0-28199badd70b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrashItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TrashItem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +35,20 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/UnityProjects/GitTrackedProjects/QuickGame1/racoon game ass/Assets/Scenes/DevelopmentScene/RyanDevScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/UnityProjects/GitTrackedProjects/QuickGame1/racoon game ass/Assets/Scenes/DevelopmentScene/RyanDevScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AIController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AI_Interface.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/UnityProjects/GitTrackedProjects/QuickGame1/racoon game ass/Assets/Scripts/AI/EnemyAI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33f9ec680d9d4a85b09adc18a20b37f02ac00/9d/721216d9/Physics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/44f3679c53d1477a9c6e72f269e3a3a91de200/06/7c2f91fd/UnsafeUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/44f3679c53d1477a9c6e72f269e3a3a91de200/18/b4aa3cfa/Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/44f3679c53d1477a9c6e72f269e3a3a91de200/1d/d81a9d7c/Component.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/44f3679c53d1477a9c6e72f269e3a3a91de200/2c/6a75945d/Unmarshal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/878b6c863a9e4c42bf8483a7b6c60e0b9b8800/4d/b7f6e9f5/Selection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ed969b0e627d471da4848289f9c322df46ae00/06/a601498d/GCHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ed969b0e627d471da4848289f9c322df46ae00/19/0b66e235/IntPtr.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/OneDrive/Documents/GitHub/TheHashSlingingSlashers/ShooterGame/Assets/Scripts/ScoreDisplay.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -53,7 +63,7 @@
   "keyToString": {
     "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "DakotaDevelopment",
+    "git-widget-placeholder": "Development",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,10 +99,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="54600">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="54600" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -207,6 +217,19 @@
           <line>91</line>
           <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'" />
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs</url>
+          <line>11</line>
+          <properties documentPath="C:\Repos\QuickGame1\racoon game ass\Assets\Scripts\ScoreManager.cs" containingFunctionPresentation="Method 'AddTrash'">
+            <startOffsets>
+              <option value="362" />
+            </startOffsets>
+            <endOffsets>
+              <option value="398" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
