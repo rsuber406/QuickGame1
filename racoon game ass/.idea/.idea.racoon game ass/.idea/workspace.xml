@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de28f2ae-e6c6-4e4e-8ba0-28199badd70b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TrashItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TrashItem.cs" afterDir="false" />
-    </list>
+    <list default="true" id="de28f2ae-e6c6-4e4e-8ba0-28199badd70b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,19 +55,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Development",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Development&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\UnityEditor\6000.0.32f1\Editor\Unity.exe" />
@@ -99,10 +95,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="54600">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="54600" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -191,31 +187,66 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
           <line>58</line>
-          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'OnTriggerEnter'" />
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'OnTriggerEnter'">
+            <startOffsets>
+              <option value="1348" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1379" />
+            </endOffsets>
+          </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
           <line>95</line>
-          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'" />
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2584" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2598" />
+            </endOffsets>
+          </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
           <line>107</line>
-          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'ChasePlayer'" />
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'ChasePlayer'">
+            <startOffsets>
+              <option value="2796" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2875" />
+            </endOffsets>
+          </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
           <line>93</line>
-          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'" />
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2507" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2545" />
+            </endOffsets>
+          </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
           <line>91</line>
-          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'" />
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2405" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2476" />
+            </endOffsets>
+          </properties>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
