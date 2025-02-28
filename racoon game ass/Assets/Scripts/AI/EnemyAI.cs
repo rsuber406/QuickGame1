@@ -1,4 +1,5 @@
 using System.Collections;
+using System.IO;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.PlayerLoop;
@@ -14,13 +15,14 @@ public class EnemyAI : MonoBehaviour, AI_Interface
     [SerializeField] protected float waitTime;
     [SerializeField] private Transform headPos;
     [SerializeField] protected Animator animationController;
-
+    [SerializeField] private bool CharacterAttacksPlayer;
     protected bool playerDetected = false;
 
     protected bool isWaitingAtLocation = false;
 
     private float fovAsDecimal;
 
+    protected bool isAttacking = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -93,7 +95,17 @@ public class EnemyAI : MonoBehaviour, AI_Interface
             {
                 if (hit.collider.CompareTag("Player"))
                 {
-                    ChasePlayer();
+                    if (!isAttacking)
+                    {
+                        ChasePlayer();
+                    }
+
+                    if (Vector3.Distance(AIController.GetAIController().GetPlayer().transform.position,
+                            transform.position) < agent.stoppingDistance)
+                    {
+                        FacePlayer();
+                        AttackPlayer();
+                    }
                     return true;
                 }
             }
@@ -106,5 +118,18 @@ public class EnemyAI : MonoBehaviour, AI_Interface
     {
         // perform any necessary action here
         agent.SetDestination(GameManager.GetInstance().GetPlayer().transform.position);
+    }
+
+    protected virtual void AttackPlayer()
+    {
+        
+    }
+
+    private void FacePlayer()
+    {
+        Vector3 direction = (AIController.GetAIController().GetPlayer().transform.position - transform.position).normalized;
+        
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 10f);
     }
 }
