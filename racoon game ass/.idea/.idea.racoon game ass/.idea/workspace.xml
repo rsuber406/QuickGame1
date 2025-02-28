@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de28f2ae-e6c6-4e4e-8ba0-28199badd70b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.racoon game ass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player Movement Script.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Player Movement Script.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/DevelopmentScene/RyanDevScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/DevelopmentScene/RyanDevScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="RyanDevelopment" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rsuber406&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rsuber406/QuickGame1.git&quot;,
+    &quot;accountId&quot;: &quot;1a0b1492-89f5-409c-8724-bf0776240d50&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/UnityProjects/GitTrackedProjects/QuickGame1/racoon game ass/Assets/Scenes/DevelopmentScene/RyanDevScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AI_Interface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tgTHFf1iFzktwMDpVHZ7ENetXY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/AI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\UnityEditor\6000.0.32f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\UnityEditor\6000.0.32f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="22372">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="22372" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list>
+          <MonoRuntime />
+        </list>
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de28f2ae-e6c6-4e4e-8ba0-28199badd70b" name="Changes" comment="" />
+      <created>1740772628173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740772628173</updated>
+      <workItem from="1740772629352" duration="3125000" />
+    </task>
+    <task id="LOCAL-00001" summary="Early AI ready">
+      <option name="closed" value="true" />
+      <created>1740775720621</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740775720621</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added needed layer">
+      <option name="closed" value="true" />
+      <created>1740775730710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740775730710</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Early AI ready" />
+    <MESSAGE value="Added needed layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>57</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'OnTriggerEnter'">
+            <startOffsets>
+              <option value="1270" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1301" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>94</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2507" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2521" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>106</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'ChasePlayer'">
+            <startOffsets>
+              <option value="2719" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2798" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>92</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2430" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2468" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>90</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2327" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2399" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyAI.cs</url>
+          <line>90</line>
+          <properties documentPath="D:\UnityProjects\GitTrackedProjects\QuickGame1\racoon game ass\Assets\Scripts\AI\EnemyAI.cs" containingFunctionPresentation="Method 'CanSeePlayer'">
+            <startOffsets>
+              <option value="2327" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2399" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
